@@ -1,5 +1,6 @@
 package com.devdrip21.controller;
 
+import com.devdrip21.config.AppConstants;
 import com.devdrip21.entities.Message;
 import com.devdrip21.entities.Room;
 import com.devdrip21.payload.MessageRequest;
@@ -15,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import java.time.LocalDateTime;
 
 @Controller
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin(AppConstants.FRONT_END_BASE_URL)
 public class chatcontroller {
 
     @Autowired

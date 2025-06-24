@@ -1,5 +1,6 @@
 package com.devdrip21.controller;
 
+import com.devdrip21.config.AppConstants;
 import com.devdrip21.entities.Message;
 import com.devdrip21.entities.Room;
 import com.devdrip21.repositories.RoomRepositories;
@@ -12,7 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/rooms")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin(AppConstants.FRONT_END_BASE_URL)
 public class RoomController {
 
     @Autowired
@@ -24,6 +25,7 @@ public class RoomController {
         if(roomRepositories.findByRoomId(roomId)!=null){
             return ResponseEntity.badRequest().body("Room already exists");
         }
+
         //else create new one
         Room room = new Room();
         room.setRoomId(roomId);

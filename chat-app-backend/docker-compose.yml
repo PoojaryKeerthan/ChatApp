@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  boot-app:
+    image: keerthanpoojary/chatback:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - SPRING_DATA_MONGODB_URI=${SPRING_DATA_MONGODB_URI}
+    ports:
+      - "8080:8080"
