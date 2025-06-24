@@ -212,8 +212,7 @@ copies or substantial portions of the Software.
 
 **Keerthan P Poojary**
 
-- GitHub: [@keerthanpoojary](https://github.com/keerthanpoojary)
-- LinkedIn: [keerthanpoojary](https://linkedin.com/in/keerthanpoojary)
+- GitHub: [@keerthanpoojary](https://github.com/PoojaryKeerthan)
 
 *Building scalable, real-time applications with modern technologies*
 
@@ -231,6 +230,6 @@ copies or substantial portions of the Software.
 
 **⭐ Star this repository if you found it helpful!**
 
-Made with ❤️ by [Keerthan P Poojary](https://github.com/keerthanpoojary)
+Made with ❤️ by [Keerthan P Poojary](https://github.com/PoojaryKeerthan)
 
 </div>
