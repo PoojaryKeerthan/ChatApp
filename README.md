@@ -6,7 +6,7 @@
 
 ## 🌟 Overview
 
-ChatApp Backend is a robust, scalable real-time chat application server built with **Spring Boot** and **WebSocket** technology. It provides seamless real-time messaging capabilities with MongoDB Atlas for data persistence and cloud deployment support.
+ChatApp Backend is a robust, scalable real-time chat application server built with Spring Boot and WebSocket technology. It provides seamless real-time messaging capabilities with MongoDB Atlas for data persistence, Docker for containerization, and cloud deployment support.
 
 ### ✨ Key Highlights
 
